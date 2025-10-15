@@ -1,7 +1,7 @@
 import { Card } from '@/components/ui/card'
 import React from 'react'
 
-type Props = {}
+type Props = object
 
 const ConversationFallback = (props: Props) => {
   return (

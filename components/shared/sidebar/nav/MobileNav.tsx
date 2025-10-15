@@ -14,7 +14,7 @@ import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 import React, { use } from "react";
 
-type Props = {};
+type Props = object;
 
 const MobileNav = (props: Props) => {
   const paths = useNavigation();

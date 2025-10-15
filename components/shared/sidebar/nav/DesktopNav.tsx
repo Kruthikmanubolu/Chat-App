@@ -13,7 +13,7 @@ import React from "react";
 import { ThemeToggle } from "@/components/ui/theme/theme-toggle";
 import { Badge } from "@/components/ui/badge";
 
-type Props = {};
+type Props = object;
 
 const DesktopNav = (props: Props) => {
   const paths = useNavigation();

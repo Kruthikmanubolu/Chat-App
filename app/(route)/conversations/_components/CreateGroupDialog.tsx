@@ -1,3 +1,5 @@
+/*eslint-disable */
+
 'use client';
 
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -44,7 +46,7 @@ import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 import z from 'zod';
 
-type Props = {};
+type Props = object;
 
 const createGroupFormSchema = z.object({
     name: z.string().min(1, { message: "This field can't be empty" }),

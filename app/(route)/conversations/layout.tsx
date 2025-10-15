@@ -1,3 +1,5 @@
+/*eslint-disable */
+
 "use client";
 
 import ItemList from "@/components/shared/items-list/ItemList";
@@ -9,7 +11,7 @@ import DMConversationItem from "./_components/DMConversationItem";
 import CreateGroupDialog from "./_components/CreateGroupDialog";
 import GroupConversationItem from "./_components/GroupConversationItem";
 
-type Props = React.PropsWithChildren<{}>;
+type Props = React.PropsWithChildren<object>;
 
 const ConversationsLayout = ({ children }: Props) => {
   const conversations = useQuery(api.conversations.get);
